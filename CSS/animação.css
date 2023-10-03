@@ -1,0 +1,22 @@
+/* INICIO DAS ANIMAÇÕES */
+
+@keyframes c-glowing-roxo {
+    0% {
+      box-shadow: 0 0 5px var(--cor-roxo-fraca), 0 0 5px var(--cor-roxo-fraca), 0 0 15px var(--cor-roxo-fraca), 0 0 20px var(--cor-roxo-principal), 0 0 10px var(--cor-roxo-principal), 0 0 10px var(--cor-roxo-principal), 0 0 10px var(--cor-roxo-principal), 0 0 10px var(--cor-roxo-principal)
+    }
+  
+    to {
+      box-shadow: 0 0 2.5px var(--cor-roxo-media), 0 0 2.5px var(--cor-roxo-media), 0 0 7.5px var(--cor-roxo-media), 0 0 10px var(--cor-roxo-media), 0 0 5px var(--cor-roxo-principal), 0 0 5px var(--cor-roxo-principal), 0 0 5px var(--cor-roxo-principal), 0 0 2px var(--cor-roxo-principal)
+    }
+  }
+
+  @keyframes c-glowing-prateado {
+    0% {
+      box-shadow: 0 0 5px var(--cor-prateado-medio-fraca), 0 0 5px var(--cor-prateado-medio-fraca), 0 0 15px var(--cor-prateado-medio-fraca), 0 0 20px var(--cor-prateado), 0 0 10px var(--cor-prateado), 0 0 10px var(--cor-prateado), 0 0 10px var(--cor-prateado), 0 0 10px var(--cor-prateado)
+    }
+  
+    to {
+      box-shadow: 0 0 2.5px var(--cor-prateado-medio), 0 0 2.5px var(--cor-prateado-medio), 0 0 7.5px var(--cor-prateado-medio), 0 0 10px var(--cor-prateado-medio), 0 0 5px var(--cor-prateado), 0 0 5px var(--cor-prateado), 0 0 5px var(--cor-prateado), 0 0 2px var(--cor-prateado)
+    }
+  }
+

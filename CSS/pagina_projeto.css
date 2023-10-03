@@ -1,0 +1,209 @@
+body{
+   background: linear-gradient(65deg,black, purple, black, purple, black);
+   color: white;
+   display: flex;
+   width: 98vw;
+   height: 100vh;
+   margin: 20px;
+}
+
+h1{
+   color: white;
+   font-style: italic;
+   font-family: sans-serif;
+   font-size: larger;
+}
+.Lista_Projetos li{
+   color: white;
+   font-style: italic;
+   font-size: 30px;
+   margin-top: 15px;
+   margin-left: 20px;
+
+}
+.Container_01{
+   background: linear-gradient(65deg,black, purple, black, purple, black);
+   color: white;
+   border-radius: 10px;
+   box-shadow: 15px 15px 2px black;
+   height: 90%;
+   width: 45%;
+   margin: 10px;
+}
+.Container_02{
+   background: linear-gradient(65deg,black, purple, black, purple, black);
+   color: black;
+   border: solid 5px yellow;
+   border-radius: 10px;
+   box-shadow: 15px 15px 2px black;
+   height: 90%;
+   width: 80%;
+   margin: 10px;
+}
+.Box01{
+   border: solid 5px white;
+   border-radius: 10px;
+   box-shadow: 10px 10px 2px;
+   height: 45%;
+   margin: 10px;
+}
+.Container_03{
+   display: flex;
+   background: linear-gradient(45deg, black, purple, black);
+   color: black;
+   box-shadow: 15px 15px 0px;
+   border-radius: 10px;
+   flex-direction: column;
+   height: 90%;
+   width: 100%;
+   margin: 10px;
+}
+.Container_04{
+   background: linear-gradient(65deg,black, purple, black, purple, black);
+   border: solid 5px white;
+   border-radius: 10px;
+   height: 70%;
+   width:  95%;
+   margin: 20px;
+}
+
+.Galeria{
+   background: linear-gradient(65deg,black, purple, black, purple, black);
+   display: flex;
+   opacity: 1px;
+}
+
+.Galeria_button{
+   background: linear-gradient(65deg,black, purple, black, purple, black);
+   display: flex;
+   width: 150px;
+   height: 40px;
+   margin: 20px;
+   justify-content: center;
+   align-items: center;
+}
+
+.Galeria_button button{
+  width: 150px;
+  height: 35px;
+  background-color: orange;
+  cursor: pointer;
+  text-shadow: 1px 1px 0px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 0px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.Botão:active{
+   box-shadow: 2px 2px 0px , inset 2px 2px 2px;
+}
+.Container_05{
+   display: flex;
+   background: linear-gradient(65deg,black, purple, black, purple, black);
+   color: white;
+   border: solid 5px white;
+   border-radius: 15px;
+   height: 80%;
+   width:  95%;
+   margin: 20px;
+   box-shadow: 15px 15px 0px black;
+}
+.Container_06{
+   display: flex;
+   border-radius: 15px;
+   flex-direction: column;
+   background: linear-gradient(65deg,black, purple, black, purple, black);
+   justify-content: center;
+   box-shadow: 15px 15px 0px black;
+   height: 80%;
+   width:  95%;
+   margin: 20px;
+}
+.Titulo_Container_06{
+    border-radius: 10px;
+    background: linear-gradient(65deg,black, purple, black, purple, black);
+    color: white;
+    font-style: italic;
+    font-family: sans-serif;
+    font-size: larger;
+}
+.Card_Container{
+  justify-content: center;
+  align-items: center; 
+  border-radius: 10px; 
+  display: flex;
+  background: linear-gradient(65deg,black, purple, black, purple, black);
+}
+.Card{
+   position: relative;
+   background-color: black;
+   width: 80px;
+   height: 80px;
+   overflow: hidden;
+   margin: 10px;
+   border-radius: 10px;
+   cursor: pointer;
+ }
+ .Card:hover{
+   transform: scale(1.10);
+}
+ .Card span:first-of-type{
+   position: absolute;
+   top: 0;
+   left: 0;
+   background: linear-gradient(to right, transparent, yellow );
+   width: 100%;
+   height: 2px;
+   animation: animar_1 2s linear infinite;   
+ }
+ @keyframes animar_1{
+     0%{ transform: translateX(-100%);}
+     100%{transform: translateX(100%);}
+ }
+ .Card span:nth-of-type(2){
+   position: absolute;
+   top: 0;
+   right: 0;
+   background: linear-gradient(to bottom, transparent, yellow);
+   width: 2px;
+   height: 100%;
+   animation: animar_2 2s linear infinite;
+   animation-delay: 1s;
+ }
+@keyframes animar_2{
+   0%{ transform: translateY(-100%);}
+   100%{transform: translateY(100%);}  
+}
+.Card span:nth-of-type(3){
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   background: linear-gradient(to left, transparent, yellow);
+   width: 100%;
+   height: 2px;
+   animation: animar_3 2s linear infinite;
+ }
+@keyframes animar_3{
+   0%{ transform: translateX(100%);}
+   100%{transform: translateX(-100%);}
+}
+.Card span:last-of-type{
+   position: absolute;
+   top: 0;
+   left: 0;
+   background: linear-gradient(to top, transparent, rgb(248, 218, 47));
+   width: 2px;
+   height: 100%;
+   animation: animar_4 2s linear infinite;
+}
+@keyframes animar_4{
+   0%{ transform: translateY(100%);}
+   100%{transform: translateY(-100%);}
+}  
+.Card img{
+   width: 100%;
+   height: 100%;
+}
+
+
+
+
